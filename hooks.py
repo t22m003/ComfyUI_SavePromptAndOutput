@@ -9,7 +9,11 @@ import execution
 import time
 
 # オリジナルのexecute関数を保持
-original_execute = execution.execute
+# モジュールリロード時の無限再帰を防ぐため、executionモジュール側にバックアップを保存する
+if not hasattr(execution, "original_execute_backup_for_save_prompt"):
+    execution.original_execute_backup_for_save_prompt = execution.execute
+
+original_execute = execution.original_execute_backup_for_save_prompt
 
 # ベースの保存先ディレクトリ
 HOOK_BASE_DIR = os.path.join(folder_paths.get_output_directory(), "hooked_outputs")
