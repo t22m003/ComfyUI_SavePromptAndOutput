@@ -30,4 +30,4 @@ Check the `ComfyUI/output/hooked_outputs/` directory for results.
 Currently, the save path is hardcoded to `ComfyUI/output/hooked_outputs`.
 You can modify `hooks.py` if you need to change the location.
 
-<iframe src="https://github.com/sponsors/t22m003/button" title="Sponsor t22m003" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
+[![Sponsor](https://img.shields.io/badge/Sponsor-t22m003-red)](https://github.com/sponsors/t22m003)
