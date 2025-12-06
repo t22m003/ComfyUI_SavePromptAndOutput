@@ -1,4 +1,5 @@
 # ComfyUI Save Prompt and Output
+[![Sponsor](https://img.shields.io/badge/Sponsor-t22m003-red)](https://github.com/sponsors/t22m003)
 
 This custom node and hook for ComfyUI automatically saves all intermediate outputs (images and metadata) for every executed node in your workflow.
 
@@ -29,5 +30,3 @@ Check the `ComfyUI/output/hooked_outputs/` directory for results.
 
 Currently, the save path is hardcoded to `ComfyUI/output/hooked_outputs`.
 You can modify `hooks.py` if you need to change the location.
-
-[![Sponsor](https://img.shields.io/badge/Sponsor-t22m003-red)](https://github.com/sponsors/t22m003)
