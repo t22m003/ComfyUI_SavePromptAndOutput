@@ -1,14 +1,22 @@
 [project]
-name = "comfyui_save_prompt_and_output"
+name = "comfyui-save-prompt-and-output"
 description = "ComfyUI custom node to save prompt and intermediate outputs"
 version = "1.0.0"
 license = { file = "LICENSE" }
 readme = "README.md"
 authors = [
-    { name = "t22m003" }
+    { name = "t22m003", email = "t22m003@example.com" }
 ]
 keywords = ["comfyui", "logging", "utility"]
 dependencies = []
+classifiers = [
+    "Operating System :: OS Independent",
+]
 
 [project.urls]
 Repository = "https://github.com/t22m003/ComfyUI_SavePromptAndOutput"
+
+[tool.comfy]
+PublisherId = "snaka"
+DisplayName = "Save Prompt And Output"
+Icon = ""
