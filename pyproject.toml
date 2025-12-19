@@ -17,6 +17,6 @@ classifiers = [
 Repository = "https://github.com/t22m003/ComfyUI_SavePromptAndOutput"
 
 [tool.comfy]
-PublisherId = "snaka"
+PublisherId = "pippingo002"
 DisplayName = "Save Prompt And Output"
 Icon = ""
